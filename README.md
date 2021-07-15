@@ -2,7 +2,7 @@
 
 bashとjqとsedがいります
 ```
-chmod +x *.sh
-./json2gpa.sh /path/to/SIRS000000000.csv
+chmod +x gpa
+./gpa /path/to/SIRS000000000.csv
 ```
 で動くと思います
