@@ -1,3 +1,5 @@
 #! /bin/bash
 
-cat $1 | bash ./src/csv2json.sh | bash ./src/json2gpa.sh
+cat $1 |\
+bash ./src/csv2json.sh |\
+bash ./src/json2gpa.sh
